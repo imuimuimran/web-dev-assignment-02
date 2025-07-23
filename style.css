@@ -1,0 +1,124 @@
+
+/* ### Start Universal CSS Part ### */
+
+body{
+    max-width: 1440px;
+    background-color: #f5f8ff;
+    box-sizing: border-box;
+}
+section{
+    max-width: 1140px;
+    margin: 60px auto;
+}
+
+/* Common Add to Cart Style */
+.add_to_cart{
+    padding: 20px 80px;
+    background-color: #E95A08;
+    columns: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+
+/* ### End Universal CSS Part ### */
+
+/* ------------------------- ****** -------------------------- */
+
+/* ### Start Common Typography Part ### */
+
+/* Font Family */
+.open-sans-font, .inter-font, .noto-serif-font{
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+}
+.inter-font> {
+  font-family: "Inter", sans-serif;
+}
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+}
+
+/* Navbar Text */
+.text-home{
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-weight: 600;
+}
+.text-nav{
+    font-family: "Inter", sans-serif;
+    color: #8987a1;
+}
+.text-cart{
+    font-family: "Inter", sans-serif;
+    color: #000000;
+}
+
+/* Banner Text */
+.text-main-heading{
+    font-family: "Noto Serif", serif;
+    font-size: 4rem;
+    color: #000000;
+}
+
+/* Common Text */
+.text-heading{
+    font-family: "Noto Serif", serif;
+    font-size: 3.1rem;
+    color: #000000;
+}
+.text-color{
+    color: #E95A08;
+}
+.text-body{
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    color: #7b7c80; 
+}
+
+/* Plant Section Text */
+.text-plant-text, .text-plant-value{
+    font-family: "Inter", sans-serif;
+    font-size: 1.3rem;
+    color: #111111;
+}
+.text-plant-text{
+    font-weight: 500;
+}
+.text-plant-value{
+    font-weight: 700;
+}
+
+/* Deal Section Text */
+.text-deal-main, .text-deal-main-small{
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.text-deal-main{
+    font-size: 2.5rem;
+}
+.text-deal-main-small{
+    font-size: 1.25rem;
+}
+.text-deal-button, .text-deal-button-small{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.text-deal-button{
+    font-size: 1.7rem;
+}
+
+/* Footer Text */
+.text-footer{
+    font-family: "Inter", sans-serif;
+    color: #6b7280;
+}
+
+/* ### End Common Typography Part ### */
+
+/* ------------------------- ****** -------------------------- */
