@@ -311,7 +311,7 @@ section{
 }
 .badge img{
     width: 100%;
-    animation: badge-spin 7s linear infinite;
+    animation: badge-spin 10s linear infinite;
 }
 @keyframes badge-spin{
     from{
@@ -348,7 +348,9 @@ section{
 /* ------------------------- ****** -------------------------- */
 
 /* ### Start Deals Style Part ### */
-
+.deals{
+    margin-top: 80px;
+}
 .deals_heading{
     border: 1px solid black;
 }
@@ -360,7 +362,7 @@ section{
     margin: 0 auto;
 }
 .deals_images{
-    margin-top: 120px;
+    margin-top: 100px;
     display: flex;
     gap: 20px;
 }
@@ -449,15 +451,59 @@ section{
 
 /* ------------------------- ****** -------------------------- */
 
-/* ### Start Banner Style Part ### */
+/* ### Start Join Style Part ### */
+.join{
+    background-image: url('./assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 535px;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.join h2{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.input-button input{
+    padding: 15px 400px 15px 20px;
+    border: none;
+}
+.input-button button{
+    padding: 15px 60px;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+    margin-left: -5px;
+}
 
-/* ### Start Responsive Style of Banner Part ### */
+/* ### Start Responsive Style of Join Part ### */
 
+@media screen and (max-width: 768px) {
+    .join{
+        min-height: 275px;
+        margin-top: 120px;
+        margin-bottom: 60px;
+    }
+    .input-button input{
+        padding: 15px 50px 15px 20px;
+        border: none;
+    }
+    .input-button button{
+        padding: 15px 30px;
+        border: none;
+        background-color: #E95A08;
+        color: white;
+        margin-left: -5px;
+    }
+}
 
+/* ### End Responsive Style of Join Part ### */
 
-/* ### End Responsive Style of Banner Part ### */
-
-/* ### End Banner Style Part ### */
+/* ### End Join Style Part ### */
 
 /* ------------------------- ****** -------------------------- */
 
