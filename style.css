@@ -153,8 +153,8 @@ section{
 
 @media screen and (max-width: 768px) {
     .navbar{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         margin-bottom: 15px;
     }
     .text-home, .text-nav{
@@ -208,8 +208,8 @@ section{
         width: 100%;
     }
     .banner-text{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .banner-text h1{
         margin-top: 20px;
@@ -248,8 +248,8 @@ section{
     display: block;
 }
 .flower-card-text{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .flower-card h5{
     margin-top: 5px;
@@ -279,6 +279,83 @@ section{
 
 /* ------------------------- ****** -------------------------- */
 
+
+/* ### Start Plants Lover Style Part ### */
+
+.plants_lover{
+    margin-top: 190px;
+    border: 1px solid black;
+    position: relative;
+}
+.plants_lover_content{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.plants_lover_img img{
+    display: block;
+}
+.plants_lover_text ul li{
+    margin-top: 20px;
+}
+.badge{
+    border: 1px solid yellow;
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    left: 30%;
+    top: -25%;
+    /* transform: translate(30%, -25%); */
+}
+.badge img{
+    width: 100%;
+    animation: badge-spin 7s linear infinite;
+}
+@keyframes badge-spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* ### Start Responsive Style of Plants Lover Part ### */
+
+@media screen and (max-width: 768px) {
+    .plants_lover{
+        margin-top: 30px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .plants_lover_content{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .badge{
+        display: none;
+    }
+    .plants_lover_img img{
+        width: 100%;
+    }
+}
+
+/* ### End Responsive Style of Plants Lover Part ### */
+
+/* ### End Plants Lover Style Part ### */
+
+/* ------------------------- ****** -------------------------- */
+
+/* ### Start Banner Style Part ### */
+
+/* ### Start Responsive Style of Banner Part ### */
+
+
+
+/* ### End Responsive Style of Banner Part ### */
+
+/* ### End Banner Style Part ### */
+
+/* ------------------------- ****** -------------------------- */
 
 /* ### Start Banner Style Part ### */
 
