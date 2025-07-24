@@ -106,9 +106,11 @@ section{
 }
 .text-deal-main{
     font-size: 2.5rem;
+    margin-bottom: 0;
 }
 .text-deal-main-small{
     font-size: 1.25rem;
+    margin-bottom: 15px;
 }
 .text-deal-button, .text-deal-button-small{
     font-family: "Inter", sans-serif;
@@ -342,6 +344,108 @@ section{
 /* ### End Responsive Style of Plants Lover Part ### */
 
 /* ### End Plants Lover Style Part ### */
+
+/* ------------------------- ****** -------------------------- */
+
+/* ### Start Deals Style Part ### */
+
+.deals_heading{
+    border: 1px solid black;
+}
+.deals_heading h2{
+    margin-bottom: 10px;
+}
+.deals_heading p{
+    width: 70%;
+    margin: 0 auto;
+}
+.deals_images{
+    margin-top: 120px;
+    display: flex;
+    gap: 20px;
+}
+.verticle_collage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+.left-top-img{
+    background-image: url('./assets/deal-ana.png');
+    min-height: 200px;
+    position: relative;
+    isolation: isolate;
+}
+.left-bottom-img{
+    background-image: url('./assets/deal-bloom.png');
+    min-height: 200px;
+    position: relative;
+    isolation: isolate;
+}
+.right-img{
+    background-image: url('./assets/deal-zabo.png');
+    min-height: 420px;
+    width: 70%;
+    position: relative;
+    isolation: isolate;
+}
+.left-top-img::after, .left-bottom-img::after,.right-img::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: black;
+    opacity: 0.4;
+    border-radius: 25px;
+}
+.left-top-img, .left-bottom-img, .right-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deals_images button{
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* ### Start Responsive Style of Deals Part ### */
+
+@media screen and (max-width: 768px) {
+    .deals_images{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .verticle_collage, .right-img{
+        width: 100%;
+    }
+    .right-img{
+        min-height: 200px;
+    }
+    .text-deal-main{
+        font-size: 1.25rem;
+        margin-bottom: 15px;
+    }
+    .text-deal-button{
+        font-size: 1rem;
+    }
+    .deals_heading, .deals_images{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .deals_heading p{
+    width: 100%;
+}
+}
+
+/* ### End Responsive Style of Deals Part ### */
+
+/* ### End Deals Style Part ### */
 
 /* ------------------------- ****** -------------------------- */
 
