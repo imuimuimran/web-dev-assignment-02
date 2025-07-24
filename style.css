@@ -11,7 +11,7 @@ section{
     margin: 60px auto;
 }
 
-/* Common Add to Cart Style */
+/* Common Add-to-Cart Style */
 .add_to_cart{
     padding: 20px 80px;
     background-color: #E95A08;
@@ -123,13 +123,14 @@ section{
 
 /* ------------------------- ****** -------------------------- */
 
-/* ### Start Header Part ### */
+/* ### Start Header Style Part ### */
 
 .navbar{
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
 .nav-items ul{
     display: flex;
@@ -146,8 +147,9 @@ section{
 
 @media screen and (max-width: 768px) {
     .navbar{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 15px;
     }
     .text-home, .text-nav{
         display: none;
@@ -159,6 +161,72 @@ section{
 
 /* ### End Responsive Style of Header Part ### */
 
-/* ### End Header Part ### */
+/* ### End Header Style Part ### */
+
+/* ------------------------- ****** -------------------------- */
+
+/* ### Start Banner Style Part ### */
+
+.banner{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.banner-text h1{
+    margin-bottom: 0;
+}
+.banner-text p{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 90%;
+}
+.banner-image img{
+    display: block; 
+}
+
+/* ### Start Responsive Style of Banner Part ### */
+
+@media screen and (max-width: 768px) {
+    .banner{
+        flex-direction: column-reverse;
+        margin-top: 15px;
+        padding-top: 0;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+    .banner-text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .banner-text h1{
+        margin-top: 20px;
+    }
+    .banner-text p{
+        margin-top: 20px;
+    }
+}
+
+/* ### End Responsive Style of Banner Part ### */
+
+/* ### End Banner Style Part ### */
+
+/* ------------------------- ****** -------------------------- */
+
+/* ### Start Banner Style Part ### */
+
+/* ### Start Responsive Style of Banner Part ### */
+
+
+
+/* ### End Responsive Style of Banner Part ### */
+
+/* ### End Banner Style Part ### */
 
 /* ------------------------- ****** -------------------------- */
