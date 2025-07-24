@@ -5,6 +5,7 @@ body{
     max-width: 1440px;
     background-color: #f5f8ff;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 section{
     max-width: 1140px;
@@ -13,10 +14,11 @@ section{
 
 /* Common Add-to-Cart Style */
 .add_to_cart{
-    padding: 20px 80px;
+    padding: 1.25rem 5.68rem;
     background-color: #E95A08;
-    columns: #FFFFFF;
+    color: #FFFFFF;
     font-family: "Inter", sans-serif;
+    border: none;
 }
 
 /* ### End Universal CSS Part ### */
@@ -65,6 +67,9 @@ section{
 }
 
 /* Common Text */
+.text-center{
+    text-align: center;
+}
 .text-heading{
     font-family: "Noto Serif", serif;
     font-size: 3.1rem;
@@ -88,6 +93,7 @@ section{
 .text-plant-text{
     font-weight: 500;
 }
+
 .text-plant-value{
     font-weight: 700;
 }
@@ -218,6 +224,61 @@ section{
 /* ### End Banner Style Part ### */
 
 /* ------------------------- ****** -------------------------- */
+
+/* ### Start Our Plants Style Part ### */
+
+.our_plants_heading{
+    border: 1px solid black;
+}
+.our_plants_heading h2{
+    margin-bottom: 10px;
+}
+.our_plants_heading p{
+    width: 70%;
+    margin: 0 auto;
+}
+.our_plants_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 17px;
+}
+.flower-card img{
+    display: block;
+}
+.flower-card-text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.flower-card h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* ### Start Responsive Style of Our Plants Part ### */
+
+@media screen and (max-width: 768px) {
+    .flower-card{
+        width: 45%;
+    }
+    .flower-card img{
+        width: 100%;
+    }
+    .add_to_cart{
+        width: 100%;
+    }
+    .our_plants_heading p{
+        width: 90%;
+    }
+}
+
+/* ### End Responsive Style of Our Plants Part ### */
+
+/* ### End Our Plants Style Part ### */
+
+/* ------------------------- ****** -------------------------- */
+
 
 /* ### Start Banner Style Part ### */
 
