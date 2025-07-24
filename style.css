@@ -122,3 +122,43 @@ section{
 /* ### End Common Typography Part ### */
 
 /* ------------------------- ****** -------------------------- */
+
+/* ### Start Header Part ### */
+
+.navbar{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items ul{
+    display: flex;
+}
+.nav-items ul li{
+    list-style: none;
+    margin-left: 48px;
+}
+.nav-items ul li a{
+    text-decoration: none;
+}
+
+/* ### Start Responsive Style of Header Part ### */
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .text-home, .text-nav{
+        display: none;
+    }
+    .nav-items ul li{
+    margin-left: 0;
+}
+}
+
+/* ### End Responsive Style of Header Part ### */
+
+/* ### End Header Part ### */
+
+/* ------------------------- ****** -------------------------- */
