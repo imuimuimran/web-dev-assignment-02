@@ -21,6 +21,13 @@ section{
     border: none;
 }
 
+/* Common Responsive Add-to-Cart Style */
+@media screen and (max-width: 768px) {
+    .add_to_cart{
+        padding: 1.25rem 2rem;
+    }    
+}
+
 /* ### End Universal CSS Part ### */
 
 /* ------------------------- ****** -------------------------- */
@@ -125,6 +132,19 @@ section{
 .text-footer{
     font-family: "Inter", sans-serif;
     color: #6b7280;
+}
+
+/* Common Responsive Typographic Style */
+@media screen and (max-width: 768px) {
+    .text-main-heading, .text-heading{
+        font-size: 1.5rem;
+    }
+    .text-body{
+        font-size: .875rem;
+    }
+    .text-plant-text, .text-plant-value{
+        font-size: 1rem;
+    }
 }
 
 /* ### End Common Typography Part ### */
@@ -533,6 +553,9 @@ section{
     }
     .footer_logo{
         width: 100%;
+    }
+    .footer_logo p{
+        width: 70%;
     }
     .footer_navbar{
         width: 100%;
