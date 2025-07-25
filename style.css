@@ -134,7 +134,6 @@ section{
 /* ### Start Header Style Part ### */
 
 .navbar{
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -177,7 +176,6 @@ section{
 
 .banner{
     display: flex;
-    border: 1px solid black;
     justify-content: space-between;
     padding-top: 100px;
 }
@@ -229,9 +227,6 @@ section{
 
 /* ### Start Our Plants Style Part ### */
 
-.our_plants_heading{
-    border: 1px solid black;
-}
 .our_plants_heading h2{
     margin-bottom: 10px;
 }
@@ -286,7 +281,6 @@ section{
 
 .plants_lover{
     margin-top: 190px;
-    border: 1px solid black;
     position: relative;
 }
 .plants_lover_content{
@@ -301,13 +295,11 @@ section{
     margin-top: 20px;
 }
 .badge{
-    border: 1px solid yellow;
     width: 286px;
     height: 286px;
     position: absolute;
     left: 30%;
     top: -25%;
-    /* transform: translate(30%, -25%); */
 }
 .badge img{
     width: 100%;
@@ -350,9 +342,6 @@ section{
 /* ### Start Deals Style Part ### */
 .deals{
     margin-top: 80px;
-}
-.deals_heading{
-    border: 1px solid black;
 }
 .deals_heading h2{
     margin-bottom: 10px;
@@ -507,14 +496,67 @@ section{
 
 /* ------------------------- ****** -------------------------- */
 
-/* ### Start Banner Style Part ### */
+/* ### Start Footer Style Part ### */
 
-/* ### Start Responsive Style of Banner Part ### */
+.footer_content{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer_logo{
+    width: 30%;
+}
+.footer_navbar{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
 
+}
+.footer_navbar ul li{
+    list-style: none;
+    padding: 16px 0; 
+}
+.footer_icons{
+    width: 20%;
+}
+.footer_icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ### Start Responsive Style of Footer Part ### */
 
+@media screen and (max-width: 768px) {
+    .footer_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_logo{
+        width: 100%;
+    }
+    .footer_navbar{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_navbar ul{
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .footer_icons{
+        width: 100%;
+    }
+    .footer_icon{
+        justify-content: left;
+    }
+    .footer_icon img{
+        margin-right: 24px;
+    }
+}
 
-/* ### End Responsive Style of Banner Part ### */
+/* ### End Responsive Style of Footer Part ### */
 
-/* ### End Banner Style Part ### */
+/* ### End Footer Style Part ### */
 
 /* ------------------------- ****** -------------------------- */

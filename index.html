@@ -22,7 +22,7 @@
                     <li><a href="" class="text-home">Home</a></li>
                     <li><a href="" class="text-nav">Shop</a></li>
                     <li><a href="" class="text-nav">About us</a></li>
-                    <li><a href="" class="text-cart"><span><i class="fa-solid fa-cart-shopping"></i></span> Cart ($56)</a></li>
+                    <li><a href="" class="text-cart" onclick="cart_message()"><span><i class="fa-solid fa-cart-shopping"></i></span> Cart ($56)</a></li>
                 </ul>
             </div>
         </section>
@@ -173,7 +173,42 @@
         <!-- ### End Join Section ### -->
     </main>
     <footer>
-
+        <section class="footer_content">
+            <div class="footer_logo">
+                <img src="./assets/logo.png" alt="Logo Image">
+                <p class="text-body">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            </div>
+            <div class="footer_navbar text-footer">
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Blog</li>
+                    <li>FAQ</li>
+                    <li>Contact US</li>
+                </ul>
+                <ul>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Help Center</li>
+                </ul>
+            </div>
+            <div class="footer_icons">
+                <div class="footer_icon">
+                    <img src="./assets/icon-linkedin.png" alt="">
+                    <img src="./assets/icon-twitter.png" alt="">
+                    <img src="./assets/icon-facebook.png" alt="">
+                    <img src="./assets/icon-youtube.png" alt="">
+                </div>
+            </div>
+        </section>
     </footer>
+
+    <script>
+        function cart_message() {
+            alert("Flower Added to Cart")
+        }
+    </script>
 </body>
 </html>
